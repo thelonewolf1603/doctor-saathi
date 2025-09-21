@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+python-dotenv
+sentence-transformers
+faiss-cpu            # or faiss-gpu if you have GPU
+openai               # if you plan to use OpenAI embeddings/LLM
+tqdm
+pytest               # for tests
+datasets
